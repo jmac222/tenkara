@@ -1,0 +1,157 @@
+nav a {
+  color: white !important;
+}
+
+body {
+  background-color: grey !important;
+}
+
+.home img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  margin: 50px !important;
+  color: whitesmoke;
+  font-weight: 300 !important;
+  font-size: 50px !important;
+}
+
+h2 {
+  text-align: center;
+  color: whitesmoke;
+  font-weight: 300 !important;
+}
+
+footer {
+  background-color: black;
+
+  width: 100vw;
+}
+
+p {
+  color: whitesmoke;
+}
+
+footer div {
+  padding: 5px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer p {
+  margin-top: 5px;
+}
+
+.container1,
+.container2 {
+  background-color: #212529;
+  width: 500px;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.about-container {
+  color: whitesmoke;
+  font-size: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.about-img img {
+  width: 800px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 50px;
+}
+
+.history-container {
+  display: flex;
+  justify-content: center;
+}
+
+.history-container div {
+  width: 400px;
+  background-color: #212529;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  font-size: 22px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  margin-right: 30px;
+}
+.history {
+  height: 70vh;
+}
+
+.getting-started {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.getting-started div {
+  background-color: #212529;
+  font-size: 30px;
+  width: 370px;
+  text-align: center;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  margin-right: 30px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+table {
+  background-color: #212529;
+  color: whitesmoke;
+  margin-top: 70px;
+  font-size: 27px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+tr,
+td,
+th {
+  border: white 1px solid !important;
+  padding: 7px;
+}
+
+.table {
+  width: 100vw;
+}
+
+
+.proscons{
+  display: flex;
+  justify-content: center;
+}
+
+.pros, .cons{
+  background-color: #212529;
+  color: whitesmoke;
+  width: 370px;
+  margin: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+}
