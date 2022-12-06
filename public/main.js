@@ -40,9 +40,9 @@ async function fetchPosts() {
 
     const postSetup = posts
       .map((post) => {
-        return `<div>
-            <h2>${post.name}</h2>
-            <h3>${post.stars}</h3>
+        return `<div class = "ind-post">
+            <h3>${post.name}</h3>
+            <h4>${post.stars} Stars</h4>
             <p>${post.subject}</p>
             </div>`;
       })
